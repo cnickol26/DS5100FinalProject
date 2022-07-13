@@ -100,7 +100,7 @@ class Game():
                 die.change_weight(sides[i],each[i])  
             die.dice_roll(rolls)
             self._all_results[num] = die.results
-    
+        
     def show(self,form = "wide"):
         '''
         Purpose: Shows the user the result of the rolls of the play method.
@@ -109,6 +109,7 @@ class Game():
         
         Output: Returns a table with the results of the rolls. 
         '''
+        self._all_results.index.name = "roll_num"
         if form == "wide":
             return(self._all_results)
         elif form == "narrow":
