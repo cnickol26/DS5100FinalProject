@@ -42,4 +42,38 @@ game = Game([[1,2,3,4],[1,1,1,1],[4,3,2,1]])
 
 # This would instantiate a game with 3 dice of the weights specified all with the faces 1,2,3,4
 ```
+### Rolling the created die
+```
+# Once you've instantiated your dice use game.play(num_rolls,die) to roll all of the dice.
+# For example if you want 1000 rolls use
 
+game.play(1000,die)
+
+# Where die is your created die object you made earlier.
+
+```
+### Looking at the output
+```
+# Use the show method to see the output of the rolls
+output = game.show()
+output
+```
+### Analyzing the output
+```
+# Use the analyzer class to analyze the results of the rolls, need to instantiate it
+# Takes in the your output from game.show() and also your game object
+analyze = Analyzer(output,game)
+```
+### Use the jackpot method to count the number of rolls that resulted in all the same face
+```
+analyze.jackpot()
+```
+### Use the combo method to see all the unique combinations rolled
+```
+analyze.combo()
+```
+### Use the face_counts_per_roll method to see a summary of the number of faces rolled for each roll
+```
+# Need to input your die object
+analyze.face_counts_per_roll(die)
+```
