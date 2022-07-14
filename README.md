@@ -182,7 +182,7 @@ face_counts_per_roll(game):
         '''
 
 ## Manifest
-DS5100FinalProject Folder:
+DS5100FinalProject Folder: <br />
     __init__.py (File to install the package) <br />
     montecarlo.py (Python file where the code for the classes is written) <br />
 FinalProjectSubmission.ipynb (Submission file for the final project) <br />
