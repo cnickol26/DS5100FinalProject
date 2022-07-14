@@ -183,13 +183,13 @@ face_counts_per_roll(game):
 
 ## Manifest
 DS5100FinalProject Folder:
-    __init__.py (File to install the package)
-    montecarlo.py (Python file where the code for the classes is written)
-FinalProjectSubmission.ipynb (Submission file for the final project)
-LICENSE (MIT License)
-README.md (Project description and other info)
-montecarlo_scenarios.ipynb (3 example test scenariois)
-montecarlo_test.py (Python file with unit tests)
-montecarlo_test_results.txt (Output from the unit test)
-setup.py (Package setup file)
-valid_guesses.csv (CSV file of possible wordle guesses for one of the scenarios)
+    __init__.py (File to install the package) <br />
+    montecarlo.py (Python file where the code for the classes is written) <br />
+FinalProjectSubmission.ipynb (Submission file for the final project) <br />
+LICENSE (MIT License) <br />
+README.md (Project description and other info) <br />
+montecarlo_scenarios.ipynb (3 example test scenariois) <br />
+montecarlo_test.py (Python file with unit tests) <br />
+montecarlo_test_results.txt (Output from the unit test) <br />
+setup.py (Package setup file) <br />
+valid_guesses.csv (CSV file of possible wordle guesses for one of the scenarios) <br />
